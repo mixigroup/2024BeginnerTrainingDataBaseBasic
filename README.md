@@ -1,0 +1,2 @@
+# 2024BeginnerTrainingDataBaseBasic
+24新卒技術研修_データベース研修_DB設計基礎
