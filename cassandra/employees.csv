@@ -1,0 +1,8 @@
+ID,name,project,region,division,role,pay_scale,vacation_hrs,manager_id
+123-45-6789,Bob,NightFlight,US,Engineering,Intern,1,0,234-56-7890
+234-56-7890,Bob,NightFlight,US,Engineering,Manager,6,72,789-01-2345
+345-67-8901,Sarah,Storm,US,Engineering,IC,4,108,234-56-7890
+456-78-9012,Beth,NightFlight,US,Engineering,IC,7,100.5,234-56-7890
+567-89-0123,Ahmed,NightFlight,US,Marketing,IC,4,88,678-90-1234
+678-90-1234,Alan,Storm,US,Marketing,Manager,3,18.4,789-01-2345
+789-01-2345,Roberta,All,US,Executive,CEO,15,184,None

@@ -54,3 +54,6 @@ Vagrantfile
 
 # data directory
 data
+
+# DynamoDB local directory
+shared-local-instance.db

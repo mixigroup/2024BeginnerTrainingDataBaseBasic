@@ -1,0 +1,8 @@
+services:
+  cassandra:
+    image: cassandra:latest
+    ports:
+      - 9042:9042
+    volumes:
+      - ./data:/var/lib/cassandra
+      - ./employees.csv:/tmp/employees.csv

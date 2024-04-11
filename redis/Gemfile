@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem 'eventmachine'
+gem 'sinatra'
+gem 'yajl-ruby', require: 'yajl'
+gem 'thin'
+gem 'em-websocket'

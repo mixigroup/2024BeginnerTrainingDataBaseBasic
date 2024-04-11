@@ -1,0 +1,23 @@
+services:
+  ## DynamoDB Local
+  dynamodb:
+    command: "-jar DynamoDBLocal.jar -sharedDb -dbPath ./data"
+    image: "amazon/dynamodb-local:latest"
+    volumes:
+      - ./data:/home/dynamodblocal/data
+    working_dir: /home/dynamodblocal
+
+  ## AWS CLI
+  cli:
+    depends_on:
+      - dynamodb
+    image: amazon/aws-cli
+    environment:
+      AWS_ACCESS_KEY_ID: 'DUMMYIDEXAMPLE'
+      AWS_SECRET_ACCESS_KEY: 'DUMMYEXAMPLEKEY'
+      AWS_REGION: 'us-west-2'
+      AWS_ENDPOINT_URL: 'http://dynamodb:8000'
+      AWS_PAGER: ''
+    entrypoint: bash -c "/bin/bash"
+    tty: true
+    stdin_open: true
