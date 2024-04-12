@@ -1,0 +1,12 @@
+services:
+  ## OWASP Juice Shop
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    ports:
+      - "13000:3000"
+
+  ## Python 3
+  python:
+    build: .
+    entrypoint: bash -c "/bin/bash"
+    tty: true
