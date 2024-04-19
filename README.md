@@ -24,16 +24,16 @@ $ echo $WORKDIR
 ほぼ同じデータをそれぞれに入れて基本操作をしながら、3つのデータベースを比較してみましょう。    
 製品は MySQL、DynamoDB Local、MongoDB です。  
 
-1. [MySQL](./MySQL/README.md)
-2. [DynamoDB Local](./DynamoDBLocal/README.md)
-3. [MongoDB](./MongoDB/README.md)
+1. [MySQL](./mysql/README.md)
+2. [DynamoDB Local](./dynamodb/README.md)
+3. [MongoDB](./mongodb/README.md)
 
 ### その2 ワイドカラムの操作
 
 ワイドカラムの基本操作を学びます。  
 製品は Cassandra です。  
 
-4. [Cassandra](./Cassandra/README.md)
+4. [Cassandra](./cassandra/README.md)
 
 ワイドカラムは専門的な知識が必要なデータベースです。今回は基本的な操作のみとなっています。  
 もしも配属先でワイドカラムを使うようなことがあれば、十分な学習が必要だと想像します。  
@@ -44,7 +44,7 @@ $ echo $WORKDIR
 製品は Redis です。  
 Redis の基本コマンドに加えて、簡単なチャットシステムを利用して Pub/Sub の仕組みを覗いてみます。  
 
-5. [Redis](./Redis/README.md)
+5. [Redis](./redis/README.md)
 
 ## 第8章 実習
 
